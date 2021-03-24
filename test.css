@@ -1,0 +1,71 @@
+.P1{
+    height: 700px;
+    width: 100%;
+    background-color: white;
+}
+.hebergement{
+    display: flex;
+    width: 1440px;
+    height: 679px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: thistle;
+}
+.logement{
+    display: flex;
+    width: 882px;
+    height: 629px;
+    background-color:#F2F2F2;
+    border-radius: 25px;
+    position: relative;
+}
+.box-log{
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+    align-content:center;
+    justify-content: space-around;
+
+}
+.h2-log{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding-left: 30px;
+}
+.p-log{
+    position: absolute;
+    bottom: 10px;
+    left: 0px;
+    margin-left: 30px ;
+    font-weight: bold;
+}
+.log-img{
+    width: 246px;
+    height: 114px;
+    border-radius: 25px 25px 0px 0px;
+    
+}
+.log-ref{
+    height: 201px;
+    border-radius: 25px;
+    border: 3px solid white;
+    background-color: white;
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+}
+.populaire{
+    display: flex;
+    width: 413px;
+    height: 632px;
+    background-color: bisque;
+}
+h3{
+    font-size: 17px;
+    margin-left: 10px;
+}
+.p-image1{
+    font-size: 13px;
+    margin-left: 10px;
+}

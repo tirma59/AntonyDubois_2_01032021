@@ -31,17 +31,20 @@ body{
 }
 a{
     text-decoration: none;
-    padding-left: 37px;
+    
 }
 .menu-item-1{
     color: #609ffd;
+    padding-left: 37px;
 }
 .menu-item-2{
     color: black;
+    padding-left: 37px;
     
 }
 .menu-item-3{
     color: #0065FC;
+    padding-left: 37px;
 }
 .header-baseline{
     display: flex;
@@ -175,7 +178,6 @@ a{
     justify-content: space-around;
     align-items: center;
     background-color: thistle;
-
 }
 .logement{
     display: flex;
@@ -190,8 +192,7 @@ a{
     flex-wrap: wrap;
     align-items:center;
     align-content:center;
-    justify-content: space-around;
-    
+    justify-content: space-around;  
 }
 .h2-log{
     position: absolute;
@@ -206,74 +207,19 @@ a{
     margin-left: 30px ;
     font-weight: bold;
 }
-
-.log{
-    display: flex;
+.log-img{
     width: 246px;
+    height: 114px;
+    border-radius: 25px 25px 0px 0px;        
+}
+.log-ref{
     height: 201px;
     border-radius: 25px;
-    justify-content: space-around;
+    border: 3px solid white;
+    background-color: white;
     margin: 10px;
-    position: unset;
-    background-color: white;
-}
-
-.centre-1{
-    background-image: url(../images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg) ;
-    width: 246px;
-    height: 201px;
-    border-radius: 25px;
-    background-size: cover;
-    border: 3px solid white; 
-}
-
-.centre-2{
-    background-image: url(../images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg);
-    width: 246px;
-    height: 201px;
-    border-radius: 25px;
-    background-size: cover;
-    border: 3px solid white;
-    background-color: white;
-
-}
-.centre-3{
-    background-image: url(../images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg);
-    width: 246px;
-    height: 201px;
-    border-radius: 25px;
-    background-size: cover;
-    border: 3px solid white;
-    background-color: white;
-}
-.centre-4{
-    background-image: url(../images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg);
-    width: 246px;
-    height: 201px;
-    border-radius: 25px;
-    background-size: cover;
-    border: 3px solid white;
-    background-color: white;
-}
-.centre-5{
-    background-image: url(../images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg);
-    width: 246px;
-    height: 201px;
-    border-radius: 25px;
-    background-size: cover;
-    border: 3px solid white;
-    background-color: white;
-
-}
-.centre-6{
-    background-image: url(../images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg);
-    width: 246px;
-    height: 201px;
-    border-radius: 25px;
-    background-size: cover;
-    border: 3px solid white;
-    background-color: white;
-
+    text-decoration: none;
+    color: black;
 }
 .populaire{
     display: flex;
@@ -281,7 +227,15 @@ a{
     height: 632px;
     background-color: bisque;
 }
-
+h3{
+    font-size: 17px;
+    margin-left: 10px;
+}
+.p-image1{
+    font-size: 13px;
+    margin-left: 10px;
+}
+        
         /*-- activiter--*/
 .P2{
     height: 630px;
