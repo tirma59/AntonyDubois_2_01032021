@@ -1,7 +1,7 @@
-                        /*--bleu foncé:     #0065FC     #5095fd
-                            bleu claire:    #DEEBFF     #609ffd
-                            gris:           #F2F2F2     #a0a0a0 --*/
-        /*--header--*/
+                                    /*--bleu foncé:     #0065FC     #5095fd
+                                        bleu claire:    #DEEBFF     #609ffd
+                                        gris:           #F2F2F2     #a0a0a0 --*/
+                    /*--header--*/
 body{
     width: 1440px;
     background-color:black;
@@ -165,7 +165,7 @@ a{
 }
 
 
-        /*--section--*/
+                        /*--section--*/
 .P1{
     height: 700px;
     width: 100%;
@@ -177,8 +177,9 @@ a{
     height: 679px;
     justify-content: space-around;
     align-items: center;
-    background-color: thistle;
 }
+
+    /*--logement--*/
 .logement{
     display: flex;
     width: 882px;
@@ -196,7 +197,7 @@ a{
 }
 .h2-log{
     position: absolute;
-    top: 0px;
+    top: 20px;
     left: 0px;
     padding-left: 30px;
 }
@@ -206,6 +207,9 @@ a{
     left: 0px;
     margin-left: 30px ;
     font-weight: bold;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 20px;
 }
 .log-img{
     width: 246px;
@@ -221,12 +225,6 @@ a{
     text-decoration: none;
     color: black;
 }
-.populaire{
-    display: flex;
-    width: 413px;
-    height: 632px;
-    background-color: bisque;
-}
 h3{
     font-size: 17px;
     margin-left: 10px;
@@ -235,8 +233,68 @@ h3{
     font-size: 13px;
     margin-left: 10px;
 }
-        
-        /*-- activiter--*/
+
+    /*--Populaire--*/
+.populaire{
+    display: flex;
+    justify-content: space-around;
+    width: 413px;
+    height: 632px;
+    background-color: #F2F2F2;
+    position: relative;
+    border-radius: 25px;
+}  
+.box-pop{
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+    align-content:center;
+    justify-content: space-around;
+
+}
+.h-populaire{
+    display: flex;
+    width: 413px;
+    margin-top: 20px;
+    position: absolute;
+    align-items: center;
+    justify-content: space-around;
+}
+.fas{
+    font-size: 25px;
+    color: black;
+}
+.h3{
+    font-size: 17px;
+    margin-left: 10px;
+}
+.p-image1{
+    font-size: 13px;
+    margin-left: 10px;
+}
+.pop-img{
+    width: 127px;
+    height: 134px;
+    border-radius: 25px 0px 0px 25px;
+    
+}
+.pop-ref{
+    display: flex;
+    height: 134px;
+    width: 343px;
+    border-radius: 25px;
+    border: 3px solid white;
+    background-color: white;
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+    align-items: center;
+}
+.desc-pop{
+    margin-left: 10px;
+}
+
+                        /*-- activiter--*/
 .P2{
     height: 630px;
     background-color: mediumturquoise;

@@ -55,11 +55,39 @@
     text-decoration: none;
     color: black;
 }
+
+
+
+.box-pop{
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+    align-content:center;
+    justify-content: space-around;
+
+}
 .populaire{
     display: flex;
+    justify-content: space-around;
     width: 413px;
     height: 632px;
-    background-color: bisque;
+    background-color: #F2F2F2;
+    position: relative;
+    border-radius: 25px;
+}  
+.h-populaire{
+    display: flex;
+    width: 413px;
+    margin-top: 20px;
+     
+    background-color: blue;
+    position: absolute;
+    align-items: center;
+    justify-content: space-around;
+}
+.fas{
+    font-size: 25px;
+    color: black;
 }
 h3{
     font-size: 17px;
@@ -67,5 +95,25 @@ h3{
 }
 .p-image1{
     font-size: 13px;
+    margin-left: 10px;
+}
+.pop-img{
+    width: 127px;
+    height: 134px;
+    border-radius: 25px 0px 0px 25px;
+    
+}
+.pop-ref{
+    display: flex;
+    height: 134px;
+    width: 343px;
+    border-radius: 25px;
+    border: 3px solid white;
+    background-color: white;
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+}
+.desc-pop{
     margin-left: 10px;
 }
