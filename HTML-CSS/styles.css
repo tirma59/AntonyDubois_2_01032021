@@ -32,8 +32,7 @@ html{
     margin-top: 50px;
 }
 a{
-    text-decoration: none;
-    
+    text-decoration: none; 
 }
 .menu-item-1{
     color: #609ffd;
@@ -257,7 +256,7 @@ a{
     height: 81px;
     justify-content: space-around;
 }
-h3{
+.title-picture{
     font-size: 17px;
     margin-left: 10px;
     margin-bottom: 0;
@@ -324,10 +323,6 @@ h3{
     font-size: 25px;
     color: black;
 }
-.h3{
-    font-size: 17px;
-    margin-left: 10px;
-}
 .p-image1{
     font-size: 13px;
     margin-left: 10px;
@@ -378,7 +373,6 @@ h3{
     align-content: center;
     justify-content: space-around;
 }
-
 .img-col1{
     display: flex;
     align-content: center;
@@ -399,7 +393,6 @@ h3{
     flex-direction: column;
     justify-content: space-between;
 }
-
 .img-col1-photo1{
     width: 303px;
     height: 389px;
@@ -489,20 +482,35 @@ footer{
     height: 215px;
     background-color: #F2F2F2;
     display: flex;
-    align-content: center;
     align-items: center;
-    
 }
-.ref-puce{
-    text-decoration: none;
+.footer-box-main{
+    width: 1111px;
+    height: 161px;
+    display: flex;
+    font-size: 20px;
+    justify-content: space-around;
+}
+.footer-box-sec{
+    display: flex;
+    flex-direction: column;
+    width: 258px;
+}
+
+.footer-title-puce{
+    font-size: 17px;
+    margin-top: 25px;
+}
+.footer-ref-puce{
     color: black;
-    margin-left: 10px;
-    
+    font-size: 17px;
+    margin-left: -40px;
 }
-.deco-puce{
-    list-style-type: none;
-    padding-right: 200px;
+.footer-main-puce{
+    width: 258px;
+    margin: 0;
+    list-style: none;
 }
-.li-puce{
+.footer-puce{
     margin-bottom: 10px;
 }
