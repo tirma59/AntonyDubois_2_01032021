@@ -97,9 +97,7 @@ html{
     width: 235px;
     border: 1px solid #F2F2F2;
 }
-.fa-search{
-    display: none;
-}
+
 .btn-recherche{
     height: 50px;
     width: 134px;
@@ -107,6 +105,10 @@ html{
     border-radius: 0px 20px 20px 0px ;
     border: 0;
     background-color: #0065FC;
+}
+.fa-search{
+    display: none;
+    color: white;
 }
 .btn-recherche:hover{
     color: #0065FC;
@@ -966,9 +968,6 @@ body{
 .img-col2{
     height: 420px;
     justify-content: space-around;
-}
-.img-col3{
-    
 }
 .img-col4 {
     height: 420px;
