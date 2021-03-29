@@ -155,7 +155,7 @@ html{
 .romantique{
     display: flex;
     height: 45px;
-    width: 183px;
+    width: 181px;
     border-radius: 25px;
     border: 3px solid #F2F2F2;
     position: relative;
@@ -177,10 +177,11 @@ html{
     border: 3px solid #DEEBFF;
 }
 .btn-filtre{
-    font-size: 18px;
-    right: 20px;
-    top: -5px;
     position: absolute;
+    font-size: 16px;
+    font-weight: bold;
+    left: 60px;
+    top: -3px;
 }   
 .img-btn{
     display: flex;
@@ -329,6 +330,9 @@ html{
 .fa-star{
     font-size: 10px;
     color: #0065FC;
+}
+.star-2{
+    color: #d9d9d9;
 }
 
     /*--Populaire--*/
@@ -582,9 +586,7 @@ body{
   
 
 /*--header--*/
-.header{
-    background-color: red;
-}
+
 .header{
     width: 100%;
     display: flex;
@@ -592,7 +594,6 @@ body{
     height: 685px;
     background-color: white;
     position: relative;
-    background-color: aqua;
 }   
 .ligne {
     display: none;
@@ -690,6 +691,7 @@ body{
     width: 281px;
     border-radius: 0px 20px 20px 0px;
     border: 2px solid #F2F2F2;
+    font-weight: bold;
 }
 .btn-recherche {
     display: none;
@@ -731,10 +733,10 @@ body{
     border-radius: 50%;
 }
 .btn-filtre {
-    font-size: 18px;
-    right: 20px;
-    top: -5px;
     position: absolute;
+    font-size: 16px;
+    left: 55px;
+    top: -3px; 
 }
 .eco {
     display: flex;
@@ -779,14 +781,14 @@ body{
 .info {
     display: flex;
     position: relative;
-    width: 343px;
-    height: 50;
+    width: 50px;
+    height: 50px;
     margin-left: 0;
 }
 .info-logo {
     display: flex;
     position: absolute;
-    top: -20px;
+    top: -15px;
     left: 21px;
     border-radius: 50px;
     width: 23px;
@@ -804,8 +806,6 @@ body{
 
 .P1 {
     height: 2000px;
-    width: 100%;
-    background-color: yellow;
 }
 .hebergement {
     display: flex;
@@ -932,50 +932,51 @@ body{
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 1366px;
-    background-color: red;
+    height: 1401px;
+    position: relative;
 }
 .activites {
     display: flex;
     flex-direction: column;
+    
     width: 375px;
-    height: 555px;
 }
 .section-title {
-    margin-top: 0;
-    margin-left: 53px;
+    position: absolute;
+    top: 45px;
+    left: 18px;
+    margin-left: 0;
 }
 .box-activites {
-    width: 100%;
-    height: 475px;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 1256px;
+    display: flex;
+    position: absolute;
+    bottom: 48px;
     justify-content: space-between;
 }
 .img-col1 {
-    display: flex;
+    height: auto;
     align-content: center;
-    margin-left: 53px;
+    margin-left: 0;
 }
-.img-col2 {
-    height: 446px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+.img-col2{
+    height: 420px;
+    justify-content: space-around;
 }
-.img-col3 {
-    display: flex;
-    align-content: center;
+.img-col3{
+    
 }
 .img-col4 {
-    height: 446px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin-right: 53px;
+    height: 420px;
+    justify-content: space-around;
+    margin-right: 0;
 }
 .img-col1-ref-photo1 {
-    height: 446px;
+    height: 191px;
     color: black;
     background-color: white;
     border: 3px solid white;
@@ -983,7 +984,7 @@ body{
     box-shadow: 3px 3px 3px 3px rgb(0 0 0 / 5%);
 }
 .img-col1-ref-photo2 {
-    height: 241px;
+    height: 191px;
     color: black;
     background-color: white;
     border: 3px solid white;
@@ -991,7 +992,7 @@ body{
     box-shadow: 3px 3px 3px 3px rgb(0 0 0 / 5%);
 }
 .img-col1-ref-photo3 {
-    height: 165px;
+    height: 191px;
     color: black;
     background-color: white;
     border: 3px solid white;
@@ -999,7 +1000,7 @@ body{
     box-shadow: 3px 3px 3px 3px rgb(0 0 0 / 5%);
 }
 .img-col1-ref-photo4 {
-    height: 446px;
+    height: 191px;
     color: black;
     background-color: white;
     border: 3px solid white;
@@ -1007,7 +1008,7 @@ body{
     box-shadow: 3px 3px 3px 3px rgb(0 0 0 / 5%);
 }
 .img-col1-ref-photo5 {
-    height: 195px;
+    height: 191px;
     color: black;
     background-color: white;
     border: 3px solid white;
@@ -1015,7 +1016,7 @@ body{
     box-shadow: 3px 3px 3px 3px rgb(0 0 0 / 5%);
 }
 .img-col1-ref-photo6 {
-    height: 209px;
+    height: 191px;
     color: black;
     background-color: white;
     border: 3px solid white;
@@ -1024,43 +1025,32 @@ body{
 }
 .img-col1-photo1 {
     width: 303px;
-    height: 389px;
-    object-fit: cover;
-    border-radius: 25px 25px 0px 0px;
+    height: 134px;
 }
 .img-col1-photo2 {
     width: 303px;
-    height: 182px;
-    object-fit: cover;
-    border-radius: 25px 25px 0px 0px;
+    height: 134px;
 }
 .img-col1-photo3 {
     width: 303px;
-    height: 109px;
-    object-fit: cover;
-    border-radius: 25px 25px 0px 0px;
+    height: 134px;
 }
 .img-col1-photo4 {
     width: 303px;
-    height: 389px;
-    object-fit: cover;
-    border-radius: 25px 25px 0px 0px;
+    height: 134px;
 }
 .img-col1-photo5 {
     width: 303px;
-    height: 139px;
-    object-fit: cover;
-    border-radius: 25px 25px 0px 0px;
+    height: 134px;
 }
 .img-col1-photo6 {
     width: 303px;
-    height: 153px;
-    object-fit: cover;
-    border-radius: 25px 25px 0px 0px;
+    height: 134px;
 }
 .title-activites {
     margin-left: 17px;
-    margin-top: 17px;
+    margin-top: 15px;
+    font-weight: bold;
 }
 /*--sectionp2--*/
 
@@ -1068,31 +1058,26 @@ body{
 footer {
     width: 375;
     height: 488px;
-    margin-left: 0;
-    background-color: #F2F2F2;
-    display: flex;
-    flex-direction: column;
 }
 .footer-box-main {
+    flex-direction: column;
     width: 375px;
-    height: 161px;
-    display: flex;
-    font-size: 20px;
-    justify-content: space-around;
+    height: 488px;
 }
 .footer-box-sec {
     display: flex;
     flex-direction: column;
     width: 258px;
+    margin-left: 30px;
 }
 .footer-title-puce {
     font-size: 17px;
-    margin-top: 25px;
-    color: brown;
+    margin-top: 0;
 }
 .footer-main-puce {
     width: 258px;
     margin: 0;
+    line-height: 14px;
     list-style: none;
 }
 /*--footer--*/
