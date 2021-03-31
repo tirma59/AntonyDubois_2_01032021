@@ -24,12 +24,12 @@ html{
     display: flex;
     justify-content: space-between;
     margin-left: 53px;
-    margin-top: 53px;
+    margin-top: 43px;
+    align-items: center;
 }
 .logo{
     display: flex;
     width: 95px;
-    height: 31px;
 }
 .ligne{  
     width: 163px;
@@ -96,6 +96,9 @@ html{
     height: 49px;
     width: 235px;
     border: 1px solid #F2F2F2;
+}
+::placeholder{
+    color: black;
 }
 
 .btn-recherche{
@@ -546,16 +549,17 @@ footer{
     align-items: center;
 }
 .footer-box-main{
-    width: 1111px;
+    width: 1250px;
     height: 161px;
     display: flex;
     font-size: 20px;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .footer-box-sec{
     display: flex;
     flex-direction: column;
     width: 258px;
+    margin-left: 50px;
 }
 
 .footer-title-puce{
@@ -604,23 +608,22 @@ body{
     justify-content: space-between;
     height: 131px;
     margin-left: 21px;
-    margin-top: 32px;
+    margin-top: 0;
+    background-color: red;
 }
 .menu {
     display: flex;
-    align-content: center;
-    text-align: center;
     font-weight: 400;
     height: 31px;
-    width: 383px;
     line-height: 31px;
-    margin-right: 76px;
+    margin-bottom: 20px;
     justify-content: space-between;
-}
+    background-color: saddlebrown;
+    }
 .logo {
     display: flex;
     width: 95px;
-    height: 31px;
+    margin-bottom: 20px;
 }
 .menu-item-1 {
     color: #609ffd;
@@ -1061,12 +1064,13 @@ body{
 /*--footer--*/
 footer {
     width: 375;
-    height: 488px;
+    height: 470px;
 }
 .footer-box-main {
     flex-direction: column;
     width: 375px;
-    height: 488px;
+    height: 470px;
+    justify-content: space-around;
 }
 .footer-box-sec {
     display: flex;
@@ -1329,4 +1333,5 @@ footer{
     justify-content: space-around;
 }
 /*--footer--*/
+
 }
