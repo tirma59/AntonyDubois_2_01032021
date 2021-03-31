@@ -609,7 +609,6 @@ body{
     height: 131px;
     margin-left: 21px;
     margin-top: 0;
-    background-color: red;
 }
 .menu {
     display: flex;
@@ -618,7 +617,6 @@ body{
     line-height: 31px;
     margin-bottom: 20px;
     justify-content: space-between;
-    background-color: saddlebrown;
     }
 .logo {
     display: flex;
