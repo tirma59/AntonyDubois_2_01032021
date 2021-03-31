@@ -579,10 +579,9 @@ footer{
 
 
                     /*--responsive iphone--*/
-@media screen and (max-device-width: 375px){
+@media screen and (min-device-width: 320px) and (max-device-width: 480px){
 body{
-    width: 375px;
-    height: auto;
+    width: 100%;
     font-family: 'raleway';
 }
   
@@ -1089,13 +1088,14 @@ footer {
 }
 
 
-@media screen and (max-device-width: 1024px) and (min-device-width:376px){
+@media screen and (min-device-width:768px) and (max-device-width: 1024px){
 body{
     width: 100%;
     background-color: white;
 }
 /*--section P1--*/
     /*--logement--*/
+
 
 .P1{
     height: 950px;
@@ -1105,7 +1105,6 @@ body{
     flex-direction: column;
     width: 100%;
     height: 950px;
-    background-color: royalblue;
 }
 
 .logement{
@@ -1129,6 +1128,8 @@ body{
     font-size: 30px;
     width: 100%;
     text-align: center;
+    margin: 0;
+    padding: 0;
 }
 .p-log{
     position: absolute;
@@ -1271,6 +1272,7 @@ body{
     font-size: 30px;
     text-align: center;
     margin-left: 0;
+    margin right: 0;
     padding-top: 45px;
 }
 .box-activites{
