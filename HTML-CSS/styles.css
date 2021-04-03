@@ -6,7 +6,6 @@ body{
     width: 1440px;
     margin: 0 auto;
     font-family: 'raleway';
-    background-color: black;
 }
 html{
     scroll-behavior: smooth;
@@ -76,12 +75,14 @@ html{
 .header-baseline-1{
     display: flex;
     font-weight: bold;
+    width: 100%;
     font-size: 20px;
     line-height: 30px;
     margin-bottom: 3px;
     }
 .header-baseline-2{
     display: flex;
+    width: 100%;
     font-weight: 200;
     line-height: 20px;
     margin-top: 3px;
@@ -318,8 +319,6 @@ html{
 .p-image1{
     font-size: 13px;
     margin-left: 10px;
-    display: flex;
-    flex-direction: column;
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -602,7 +601,7 @@ body{
 /*--header--*/
 
 .header{
-    height: 685px;
+    height: auto;
 }   
 .ligne {
     display: none;
@@ -653,7 +652,7 @@ body{
     right: 21px;
 }
 .header-baseline {
-    width: 300px;
+    width: auto;
     height: 80px;
     margin-top: 25px;
     margin-left: 21px;
@@ -671,8 +670,11 @@ body{
     margin-left: 21px;
     position: relative;
 }
+.ville{
+    width: 100%;
+}
 #recherche {
-    width: 281px;
+    width: 90%;
     border-radius: 0px 20px 20px 0px;
     font-weight: bold;
 }
@@ -685,7 +687,7 @@ body{
     justify-content: center;
     position: absolute;
     top: 0;
-    right: 21px;
+    right: 9%;
     width: 50px;
     height: 50px;
     border-radius: 20px;
@@ -693,17 +695,19 @@ body{
     color: white;
 }
 .filtre {
-    width: 375px;
-    height: 225px;
-    flex-direction: column;
-    margin-left: 0;
-    position: relative;
+    display: flex;
+    width: auto;
+    height: 100%;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin-left: 21px;
+    
 }
 .p-filtre {
-    position: absolute;
-    top: -15px;
-    left: 21px;
+    display: flex;
+    width: 100%;
     font-size: 21px;
+    margin-left: 21px;
 }
 .img-btn {
     position: relative;
@@ -712,36 +716,28 @@ body{
     left: 55px;
 }
 .eco {
-    position: absolute;
     width: 176px;
-    left: 21px;
-    top: 40px;
+    margin-bottom: 10px;
 }
 .familial {
-    position: absolute;
     width: 138px;
-    right: 21px;
-    top: 40px;
+    margin-right: 21px;
+    margin-bottom: 10px;
 }
 .romantique {
-    position: absolute;
     width: 167px;
-    left: 21px;
-    top: 100px;
-    
+    margin-bottom: 10px;
 }
 .animaux {
-    position: absolute;
     width: 218px;
-    left: 21px;
-    top: 164px;
-    
+    margin-bottom: 10px;
 }
 .info {
     position: relative;
-    width: 50px;
+    width: 100%;
     height: 50px;
     margin-left: 0;
+    margin-bottom: 30px;
 }
 .info-logo {
     position: absolute;
@@ -754,23 +750,23 @@ body{
 .text-info{
     position: absolute;
     left: 55px;
-    width: 300px;
+    width: auto;
 }
 /*--header--*/
 
 /*--section P1--*/
 
 .P1 {
-    height: 2000px;
+    height: auto;
 }
 .hebergement {
-    width: 375px;
+    width: 100%;
     height: 2000px;
     flex-direction: column-reverse;
 }
 .logement {
     flex-direction: column;
-    width: 375px;
+    width: 100%;
     height: 1420px;
     margin-left: 0;
     border-radius: 0;
@@ -786,22 +782,22 @@ body{
     flex-direction: column;
     position: absolute;
     justify-content: space-between;
-    width: 375px;
-    height: 1255px;
+    width: 100%;
+    height: auto;
     top: 90px;
-    flex-wrap: nowrap;
 }
 .log-ref {
     display: flex;
     flex-direction: column;
     height: 190px;
-    width: 334px;
+    width: auto;
     border-radius: 25px;
-    margin: 0;
+    justify-content: space-around;
     color: black;
+    margin: 5px 20px 5px 20px;
 }
 .log-img {
-    width: 334px;
+    width: 100%;
     height: 114px;
 }
 .populaire {
@@ -811,7 +807,7 @@ body{
     border-radius: 0;
 }
 .h-populaire {
-    width: 375px;
+    width: 100%;
     margin-top: 43px;
     align-content: center;
 }
@@ -826,15 +822,20 @@ body{
 }
 .box-pop {
     position: absolute;
+    width: 100%;
     height: 455px;
     top: 90px;
 }
 .pop-ref {
     text-decoration: none;
+    width: auto;
     height: 132px;
     justify-content: space-between;
+    margin: 5px 20px 5px 20px;
 }
+
 .pop-img {
+    width: 127px;
     height: 132px;
     border-radius: 25px 0px 0px 25px;
 }
@@ -858,7 +859,7 @@ body{
 .activites {
     display: flex;
     flex-direction: column;
-    width: 375px;
+    width: auto;
 }
 .section-title {
     position: absolute;
@@ -870,72 +871,75 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 1256px;
+    height: auto;
+    width: 100%;
     position: absolute;
-    bottom: 48px;
+    bottom: 30px;
+    justify-content: space-around;
 }
 .img-col1 {
-    height: auto;
-    margin-left: 0;
+    width: auto;
+    margin: 10px 20px 5px 20px;
 }
 .img-col2{
     height: 420px;
     justify-content: space-around;
+    margin: 5px 20px 5px 20px;
+}
+.img-col3{
+    margin: 10px 20px 5px 20px;
 }
 .img-col4 {
     height: 420px;
     justify-content: space-around;
-    margin-right: 0;
+    margin: 5px 20px 5px 20px;
 }
 .img-col1-ref-photo1 {
-    width: 343px;
+    width: auto;
     height: 191px;
 }
 .img-col1-ref-photo2 {
-    width: 343px;
+    width: auto;
     height: 191px;
 }
 .img-col1-ref-photo3 {
-    width: 343px;
+    width: auto;
     height: 191px;
 }
 .img-col1-ref-photo4 {
-    width: 343px;
+    width: auto;
     height: 191px;
-    color: black;
 }
 .img-col1-ref-photo5 {
-    width: 343px;
+    width: auto;
     height: 191px;
-    color: black;
 }
 .img-col1-ref-photo6 {
-    width: 343px;
+    width: auto;
     height: 191px;
-    color: black;
 }
 .img-col1-photo1 {
-    width: 343px;
+    width: 100%;
     height: 134px;
 }
 .img-col1-photo2 {
-    width: 343px;
+    width: 100%;
     height: 134px;
 }
 .img-col1-photo3 {
-    width: 343px;
+    width: 100%;
     height: 134px;
 }
 .img-col1-photo4 {
-    width: 343px;
+    width: 100%;
     height: 134px;
 }
 .img-col1-photo5 {
-    width: 343px;
+    width: 100%;
     height: 134px;
 }
 .img-col1-photo6 {
-    width: 343px;
+    width: 100%;
     height: 134px;
 }
 .title-activites {
@@ -947,7 +951,7 @@ body{
 
 /*--footer--*/
 footer {
-    width: 375;
+    width: 100%;
     height: 470px;
 }
 .footer-box-main {
@@ -964,6 +968,7 @@ footer {
 }
 .footer-main-puce {
     line-height: 14px;
+    width: auto;
 }
 /*--footer--*/
 }
@@ -972,68 +977,85 @@ footer {
 @media screen and (min-device-width:768px) and (max-device-width: 1024px){
 body{
     width: 100%;
+    height: auto;
     background-color: white;
 }
+/*--header--*/
+.header{
+    width: 100%;
+    height: auto;
+}
+.info{
+    height: 40px;
+}
+.filtre{
+    height: auto;
+    width: auto;
+    flex-wrap: wrap;
+}
+
+/*--header--*/
+
 /*--section P1--*/
     /*--logement--*/
 
 
 .P1{
-    height: 950px;
+    height: auto;
     width: 100%;
 }
 .hebergement{
     flex-direction: column;
     width: 100%;
-    height: 950px;
+    height: auto;
 }
 
 .logement{
     display: flex;
+    flex-direction: column;
     width: 100%;
-    height: 650px;
-    background-color:#F2F2F2;
+    height: auto;
     border-radius: 0;
-    position: relative;
     margin-left: 0;
+    padding-bottom: 25px;
 }
 .box-log{
     display: flex;
-    flex-wrap: wrap;
     align-items:center;
     align-content:center;
-    justify-content: space-around;
+    height: auto;
+    margin-top: 0;
+    margin-bottom: 20px;
 }
 .h2-log{
+    position:static;
     margin-top: 10px;
+    margin-bottom: 15px;
     font-size: 30px;
     width: 100%;
+    padding-left: 0;
     text-align: center;
-    margin: 0;
-    padding: 0;
 }
 .p-log{
-    position: absolute;
-    bottom: 10px;
-    left: 0px;
+    position: static;
     margin-left: 30px ;
     font-weight: bold;
     text-decoration: none;
     color: black;
-    margin-bottom: 20px;
 }
 .log-ref{
+    width: 30%;
     height: 201px;
     border-radius: 25px;
     border: 3px solid white;
     background-color: white;
-    margin: 10px;
+    margin: 5px;
     text-decoration: none;
     color: black;
     box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.05);
 }
 .log-img{
-    width: 246px;
+    width: 100%;
     height: 114px;
     object-fit: cover;
     border-radius: 25px 25px 0px 0px;        
@@ -1086,23 +1108,27 @@ body{
 
     /*--Populaire--*/
 .populaire{
-    position: relative;
+    flex-direction: column;
     width: 100%;
-    height: 300px;
+    height: auto;
     border-radius: 0;
     margin-right: 0;
+    margin-top: 0;
     background-color: white;
 }  
 .box-pop{
     width: 100%;
     display: flex;
     flex-direction: row;
-    position: absolute;
+    position: inherit;
 }
 .h-populaire{
-    margin-top: 5px;
+    margin-top: 0;
     width: 100%;
+    height: auto;
+    position: inherit;
     font-size: 20px;
+    margin-bottom: 10px;
 }
 .title-populaire{
     font-size: 30px;
@@ -1141,12 +1167,13 @@ body{
 /*--section P2--*/
 .P2{
     width: 100%;
-    height: 1150px;
+    height: auto;
     background-color: #F2F2F2;
 }
 .activites{
     width: 100%;
-    height: 1200px;
+    height: auto;
+    padding-bottom: 20px;
 }
 .section-title{
     width: 100%;
@@ -1157,41 +1184,45 @@ body{
 }
 .box-activites{
     width: 100%;
-    height: 1000px;
+    height: auto;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 .img-col1{
+    width: 45%;
     margin-left: 0;
     margin-bottom: 30px;
 }
 .img-col2{
+    width: 45%;
     margin-bottom: 25px;
 }
 .img-col3{
+    width: 45%;
     align-content: center;
 }
 .img-col4{
+    width: 45%;
     margin-right: 0;
 }
 
 .img-col1-photo1{
-    width: 450px;
+    width: 100%;
 }
 .img-col1-photo2{
-    width: 450px;
+    width: 100%;
 }
 .img-col1-photo3{
-    width: 450px;
+    width: 100%;
 }
 .img-col1-photo4{
-    width: 450px;
+    width: 100%;
 }
 .img-col1-photo5{
-    width: 450px;
+    width: 100%;
 }
 .img-col1-photo6{
-    width: 450px;
+    width: 100%;
 }
 .title-activites{
     margin-left: 17px;
@@ -1206,7 +1237,14 @@ footer{
 }
 .footer-box-main{
     width: 100%;
-    justify-content: space-around;
+    height: auto;
+}
+.footer-main-puce{
+    width: auto;
+}
+.footer-box-sec{
+    height: auto;
+    text-align: left;
 }
 /*--footer--*/
 
