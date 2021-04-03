@@ -68,20 +68,29 @@ html{
 .header-baseline{
     display: flex;
     flex-direction: column;
-    margin-top: 51px;
+    justify-content: space-around;
+    height: 100px;
+    margin-top: 20px;
     margin-left: 53px;
 }
 .header-baseline-1{
+    display: flex;
     font-weight: bold;
-}
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 3px;
+    }
 .header-baseline-2{
+    display: flex;
     font-weight: 200;
+    line-height: 20px;
+    margin-top: 3px;
 }
 .recherche{
     display: flex;
     align-items: center;
     height: 50px;
-    margin-top: 23px;
+    margin-top: 15px;
     margin-left: 53px;
 }
 .ou{
@@ -646,7 +655,7 @@ body{
 .header-baseline {
     width: 300px;
     height: 80px;
-    margin-top: 0px;
+    margin-top: 25px;
     margin-left: 21px;
     justify-content: space-around;
 }
