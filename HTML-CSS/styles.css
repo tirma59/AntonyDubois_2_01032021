@@ -15,34 +15,29 @@ html{
     width: 100%;
     display: flex;
     flex-direction: column;
-    height: 400px;
+    height: auto;
     background-color: white;
     position: relative;
 }
 .l-container{
     display: flex;
     justify-content: space-between;
+    height: 100px;
     margin-left: 53px;
-    margin-top: 43px;
     align-items: center;
 }
 .logo{
     display: flex;
     width: 95px;
 }
-.ligne{  
-    width: 163px;
-    height: 5px;
-    position:absolute;
-    right: 324px;
-    background-color: #DEEBFF;
-}
+
 .menu{
     display: flex;
     align-content: center;
+    align-items: center;
     text-align: center;
     font-weight:400;
-    height: 31px;
+    height: 100px;
     width: 383px;
     line-height: 31px;
     margin-right: 76px;
@@ -63,13 +58,19 @@ html{
     color: #0065FC;
     text-decoration: none;
 }
+.menu-deco{
+    width: 33%;
+    line-height: 98px;
+}
+.menu-deco:hover{
+    border-top: 2px solid #0065FC;
+}
 
 .header-baseline{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    height: 100px;
-    margin-top: 20px;
+    height: 70px;
     margin-left: 53px;
 }
 .header-baseline-1{
@@ -403,6 +404,10 @@ html{
     box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.05);
     margin-bottom: 25px;
 }
+.zoom:hover{
+    transform: scale(1.05);
+    transition: 0.2s;
+}
 .desc-pop{
     margin-left: 10px;
 }
@@ -580,6 +585,9 @@ footer{
     margin-left: -40px;
     text-decoration: none;
 }
+.footer-ref-puce:hover{
+    color: #0065FC;
+}
 .footer-main-puce{
     width: 258px;
     margin: 0;
@@ -603,9 +611,6 @@ body{
 .header{
     height: auto;
 }   
-.ligne {
-    display: none;
-}
 .l-container {
     height: 131px;
     margin-left: 21px;
