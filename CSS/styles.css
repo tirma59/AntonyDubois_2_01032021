@@ -57,6 +57,7 @@ html{
 .menu-item-3{
     color: #0065FC;
     text-decoration: none;
+    font-weight: 500;
 }
 .menu-deco{
     width: 33%;
@@ -117,6 +118,7 @@ html{
 .btn-recherche{
     height: 50px;
     width: 134px;
+    font-size: 16px;
     color: white;
     border-radius: 0px 20px 20px 0px ;
     border: 0;
@@ -142,7 +144,7 @@ html{
     font-size: 17px;
 }
 .p-filtre{
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 600;
 }
 .eco{
