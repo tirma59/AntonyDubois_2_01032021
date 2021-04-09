@@ -106,7 +106,9 @@ html{
 #recherche{
     height: 49px;
     width: 235px;
+    font-weight: bold;
     border: 1px solid #F2F2F2;
+    padding-left: 5%;
 }
 ::placeholder{
     color: black;
