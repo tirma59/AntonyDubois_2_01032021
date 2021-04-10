@@ -159,7 +159,7 @@ html{
     border: 3px solid #F2F2F2;
 }
 .eco:hover{
-    background-color: #DEEBFF; 
+    background-color: #F2F2F2; 
     border: 3px solid #DEEBFF;
 }
 .familial{
@@ -171,7 +171,7 @@ html{
     border: 3px solid #F2F2F2;
 }
 .familial:hover{
-    background-color: #DEEBFF; 
+    background-color: #F2F2F2; 
     border: 3px solid #DEEBFF;
 }
 
@@ -184,7 +184,7 @@ html{
     position: relative;
 }
 .romantique:hover{
-    background-color: #DEEBFF; 
+    background-color: #F2F2F2; 
     border: 3px solid #DEEBFF;
 }
 .animaux{
@@ -196,7 +196,7 @@ html{
     position: relative;
 }
 .animaux:hover{
-    background-color: #DEEBFF;
+    background-color: #F2F2F2;
     border: 3px solid #DEEBFF;
 }
 .btn-filtre{
@@ -297,9 +297,9 @@ html{
     margin-bottom: 20px;
 }
 .log-ref{
+    width: 246px;
     height: 201px;
     border-radius: 25px;
-    border: 3px solid white;
     background-color: white;
     margin: 10px;
     text-decoration: none;
@@ -307,7 +307,10 @@ html{
     box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.05);
 }
 .log-img{
-    width: 246px;
+    display: flex;
+    margin-left: 3px;
+    margin-top: 3px;
+    width: 240px;
     height: 114px;
     object-fit: cover;
     border-radius: 25px 25px 0px 0px;        
@@ -395,6 +398,8 @@ html{
 .pop-img{
     width: 127px;
     height: 134px;
+    margin-top: 1px;
+    margin-left: 1px;
     object-fit: cover;
     border-radius: 25px 0px 0px 25px; 
 }
@@ -403,7 +408,6 @@ html{
     height: 134px;
     width: 343px;
     border-radius: 25px;
-    border: 3px solid white;
     background-color: white;
     margin: 10px;
     text-decoration: none;
@@ -465,37 +469,55 @@ html{
 }
 
 .img-col1-photo1{
-    width: 303px;
+    display: flex;
+    margin-top: 3px;
+    margin-left: 3px;
+    width: 292px;
     height: 389px;
     object-fit: cover;
     border-radius: 25px 25px 0px 0px;
 }
 .img-col1-photo2{
-    width: 303px;
+    display: flex;
+    margin-top: 3px;
+    margin-left: 3px;
+    width: 292px;
     height: 182px;
     object-fit: cover;
     border-radius: 25px 25px 0px 0px;
 }
 .img-col1-photo3{
-    width: 303px;
+    display: flex;
+    margin-top: 3px;
+    margin-left: 3px;
+    width: 292px;
     height: 109px;
     object-fit: cover;
     border-radius: 25px 25px 0px 0px;
 }
 .img-col1-photo4{
-    width: 303px;
+    display: flex;
+    margin-top: 3px;
+    margin-left: 3px;
+    width: 292px;
     height: 389px;
     object-fit: cover;
     border-radius: 25px 25px 0px 0px;
 }
 .img-col1-photo5{
-    width: 303px;
+    display: flex;
+    margin-top: 3px;
+    margin-left: 3px;
+    width: 292px;
     height: 139px;
     object-fit: cover;
     border-radius: 25px 25px 0px 0px;
 }
 .img-col1-photo6{
-    width: 303px;
+    display: flex;
+    margin-top: 3px;
+    margin-left: 3px;
+    width: 292px;
     height: 153px;
     object-fit: cover;
     border-radius: 25px 25px 0px 0px;
@@ -505,7 +527,6 @@ html{
     height: 446px;
     color: black;
     background-color: white;
-    border: 3px solid white;
     border-radius: 25px;
     box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.05);
     text-decoration: none;
@@ -514,7 +535,6 @@ html{
     height: 241px;
     color: black;
     background-color: white;
-    border: 3px solid white;
     border-radius: 25px;
     box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.05);
     text-decoration: none;
@@ -523,7 +543,6 @@ html{
     height: 165px;
     color: black;
     background-color: white;
-    border: 3px solid white;
     border-radius: 25px;
     box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.05);
     text-decoration: none;
@@ -532,7 +551,6 @@ html{
     height: 446px;
     color: black;
     background-color: white;
-    border: 3px solid white;
     border-radius: 25px;
     box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.05);
     text-decoration: none;
@@ -541,7 +559,6 @@ html{
     height: 195px;
     color: black;
     background-color: white;
-    border: 3px solid white;
     border-radius: 25px;
     box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.05);
     text-decoration: none;
@@ -550,7 +567,6 @@ html{
     height: 209px;
     color: black;
     background-color: white;
-    border: 3px solid white;
     border-radius: 25px;
     box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.05);
     text-decoration: none;
@@ -606,7 +622,7 @@ footer{
 
 
                     /*--responsive iphone--*/
-@media screen and (min-device-width: 320px) and (max-device-width: 480px){
+@media screen and (min-width: 320px) and (max-width: 480px){
 body{
     width: 100%;
     font-family: 'raleway';
@@ -784,13 +800,13 @@ body{
 }
 .hebergement {
     width: 100%;
-    height: 2000px;
+    height: auto;
     flex-direction: column-reverse;
 }
 .logement {
     flex-direction: column;
     width: 100%;
-    height: 1420px;
+    height: 1350px;
     margin-left: 0;
     border-radius: 0;
     background-color: white;
@@ -820,7 +836,7 @@ body{
     margin: 5px 20px 5px 20px;
 }
 .log-img {
-    width: 100%;
+    width: 98%;
     height: 114px;
 }
 .p-log{
@@ -834,7 +850,7 @@ body{
         /*--populaire--*/
 .populaire {
     width: 100%;
-    height: 580px;
+    height: 540px;
     margin-right: 0;
     border-radius: 0;
 }
@@ -856,7 +872,7 @@ body{
     position: absolute;
     width: 100%;
     height: 455px;
-    top: 90px;
+    top: 65px;
 }
 .pop-ref {
     text-decoration: none;
@@ -867,7 +883,9 @@ body{
 }
 .pop-img {
     width: 127px;
-    height: 132px;
+    height: 126px;
+    margin-top: 3px;
+    margin-left: 3px;
     border-radius: 25px 0px 0px 25px;
 }
 .desc-photo-pop{
@@ -930,51 +948,51 @@ body{
     margin: 5px 20px 5px 20px;
 }
 .img-col1-ref-photo1 {
-    width: auto;
+    width: 100%;
     height: 191px;
 }
 .img-col1-ref-photo2 {
-    width: auto;
+    width: 100%;
     height: 191px;
 }
 .img-col1-ref-photo3 {
-    width: auto;
+    width: 100%;
     height: 191px;
 }
 .img-col1-ref-photo4 {
-    width: auto;
+    width: 100%;
     height: 191px;
 }
 .img-col1-ref-photo5 {
-    width: auto;
+    width: 100%;
     height: 191px;
 }
 .img-col1-ref-photo6 {
-    width: auto;
+    width: 100%;
     height: 191px;
 }
 .img-col1-photo1 {
-    width: 100%;
+    width: 98%;
     height: 134px;
 }
 .img-col1-photo2 {
-    width: 100%;
+    width: 98%;
     height: 134px;
 }
 .img-col1-photo3 {
-    width: 100%;
+    width: 98%;
     height: 134px;
 }
 .img-col1-photo4 {
-    width: 100%;
+    width: 98%;
     height: 134px;
 }
 .img-col1-photo5 {
-    width: 100%;
+    width: 98%;
     height: 134px;
 }
 .img-col1-photo6 {
-    width: 100%;
+    width: 98%;
     height: 134px;
 }
 .title-activites {
@@ -1009,7 +1027,7 @@ footer {
 }
 
 
-@media screen and (min-device-width:481px) and (max-device-width: 1024px){
+@media screen and (min-width:481px) and (max-width: 1024px){
 body{
     width: 100%;
     height: auto;
@@ -1086,7 +1104,6 @@ body{
     width: 30%;
     height: 201px;
     border-radius: 25px;
-    border: 3px solid white;
     background-color: white;
     margin: 5px;
     text-decoration: none;
@@ -1094,7 +1111,7 @@ body{
     box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.05);
 }
 .log-img{
-    width: 100%;
+    width: 98%;
     height: 114px;
     object-fit: cover;
     border-radius: 25px 25px 0px 0px;        
@@ -1167,7 +1184,7 @@ body{
     margin-bottom: 0;
 }
 .pop-img{
-    width: 100%;
+    width: 99%;
     height: 114px;
     object-fit: cover;
     border-radius: 25px 25px 0px 0px;  
@@ -1178,7 +1195,6 @@ body{
     height: 201px;
     width: 30%;
     border-radius: 25px;
-    border: 3px solid white;
     background-color: white;
     margin: 10px;
     text-decoration: none;
@@ -1203,6 +1219,9 @@ body{
 .star-pop{
     margin-left: 10px;
     margin-bottom: -10px;
+}
+.star-pop{
+    margin-bottom: 3px;
 }
 /*--section P1--*/
 
@@ -1249,22 +1268,22 @@ body{
 }
 
 .img-col1-photo1{
-    width: 100%;
+    width: 99%;
 }
 .img-col1-photo2{
-    width: 100%;
+    width: 99%;
 }
 .img-col1-photo3{
-    width: 100%;
+    width: 99%;
 }
 .img-col1-photo4{
-    width: 100%;
+    width: 99%;
 }
 .img-col1-photo5{
-    width: 100%;
+    width: 99%;
 }
 .img-col1-photo6{
-    width: 100%;
+    width: 99%;
 }
 .title-activites{
     margin-left: 17px;
