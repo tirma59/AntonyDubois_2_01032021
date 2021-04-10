@@ -623,39 +623,36 @@ body{
 .menu {
     margin-bottom: 20px;
     }
+.menu-deco:hover{
+    border-top: none;
+}
 .logo {
     margin-bottom: 20px;
 }
 .menu-item-1 {
     position: absolute;
-    width: 188px;
+    width: 50%;
     left: 0%;
     top: 100px;
-    line-height: 14px;
+    line-height: 30px;
+    border-bottom: 3px solid #F2F2F2;
 }
-.line-hebergement {
-    position: absolute;
-    background-color: #0065FC;
-    height: 2px;
-    width: 188px;
-    left: 0;
-    top: 129px;
+.menu-item-1:hover{
+    border-bottom: 3px solid #0065FC;
 }
+
 .menu-item-2 {
     position: absolute;
-    width: 188px;
+    width: 50%;
     right: 0;
     top: 100px;
-    line-height: 14px;
+    line-height: 30px;
+    border-bottom: 3px solid #F2F2F2;
 }
-.line-activites {
-    position: absolute;
-    background-color: #F2F2F2;
-    height: 2px;
-    width: 188px;
-    right: 0;
-    top: 129px;
+.menu-item-2:hover{
+    border-bottom: 3px solid #0065FC;
 }
+
 .menu-item-3 {
     position: absolute;
     right: 21px;
