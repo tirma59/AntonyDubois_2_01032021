@@ -38,26 +38,26 @@ html{
     text-align: center;
     font-weight:400;
     height: 80px;
-    width: 383px;
+    width: 40%;
     line-height: 21px;
     margin-right: 76px;
     justify-content: space-between;
 }
 
 .menu-item-1{
-    width: 33%;
+    width: 50%;
     color: #609ffd;
     text-decoration: none;
 }
 
 .menu-item-2{
-    width: 33%;
+    width: 50%;
     color: black;
     text-decoration: none;
 }
 
 .menu-item-3{
-    width: 33%;
+    width: 50%;
     color: #0065FC;
     text-decoration: none;
     font-weight: 500;
@@ -1027,6 +1027,10 @@ body{
     height: auto;
     width: auto;
     flex-wrap: wrap;
+}
+.menu{
+    width: 50%;
+    margin: 0;
 }
 
 /*--header--*/
