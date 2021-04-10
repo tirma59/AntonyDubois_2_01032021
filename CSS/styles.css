@@ -22,7 +22,7 @@ html{
 .l-container{
     display: flex;
     justify-content: space-between;
-    height: 100px;
+    height: 80px;
     margin-left: 53px;
     align-items: center;
 }
@@ -37,31 +37,34 @@ html{
     align-items: center;
     text-align: center;
     font-weight:400;
-    height: 100px;
+    height: 80px;
     width: 383px;
-    line-height: 31px;
+    line-height: 21px;
     margin-right: 76px;
     justify-content: space-between;
 }
 
 .menu-item-1{
+    width: 33%;
     color: #609ffd;
     text-decoration: none;
 }
 
 .menu-item-2{
+    width: 33%;
     color: black;
     text-decoration: none;
 }
 
 .menu-item-3{
+    width: 33%;
     color: #0065FC;
     text-decoration: none;
     font-weight: 500;
 }
 .menu-deco{
     width: 33%;
-    line-height: 98px;
+    line-height: 78px;
 }
 .menu-deco:hover{
     border-top: 2px solid #0065FC;
@@ -1006,7 +1009,7 @@ footer {
 }
 
 
-@media screen and (min-device-width:768px) and (max-device-width: 1024px){
+@media screen and (min-device-width:481px) and (max-device-width: 1024px){
 body{
     width: 100%;
     height: auto;
