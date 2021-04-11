@@ -723,6 +723,7 @@ body{
     border-radius: 20px;
     background-color: #0065FC;
     color: white;
+    cursor: pointer;
 }
 .fa-search:before {
     content: "\f002";
@@ -1126,6 +1127,9 @@ footer {
     .btn-recherche {
         display: none;
     }
+    .btn:hover{
+        cursor: pointer;
+    }
     .fa-search {
         display: flex;
         align-items: center;
@@ -1138,6 +1142,7 @@ footer {
         border-radius: 20px;
         background-color: #0065FC;
         color: white;
+        cursor: pointer;
     }
     .fa-search:before {
         content: "\f002";
