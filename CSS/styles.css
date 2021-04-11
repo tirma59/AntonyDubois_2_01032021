@@ -1093,15 +1093,17 @@ footer {
     }
     .header-baseline {
         width: auto;
-        height: 80px;
-        margin-top: 25px;
+        height: auto;
+        margin-top: 35px;
         margin-left: 21px;
         justify-content: space-around;
     }
     .header-baseline-1 {
         font-size: 20px;
+        height: auto;
     }
     .header-baseline-2 {
+        height: auto;
         font-size: 15px;
         font-weight: 300;
     }
@@ -1270,17 +1272,20 @@ footer {
         border-radius: 0;
     }
     .h-populaire {
+        display: flex;
         width: 100%;
-        margin-top: 43px;
+        margin-top: 30px;
         align-content: center;
+        flex-direction: column;
     }
     .title-populaire {
+        width: 50%;
         color: black;
         position: absolute;
         left: 18px;
     }
     .fa-chart-line {
-        position: absolute;
+        position:inherit;
         right: 18px;
     }
     .box-pop {
