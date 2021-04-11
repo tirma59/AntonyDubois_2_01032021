@@ -1799,6 +1799,10 @@ body{
     height: 40px;
     margin-bottom: 10px;
 }
+.header-baseline{
+    padding-top: 1%;
+    padding-bottom: 2%;
+}
 .filtre{
     height: auto;
     width: auto;
