@@ -134,6 +134,7 @@ html{
 .btn-recherche:hover{
     color: #0065FC;
     background-color:#F2F2F2;
+    cursor: pointer;
 }
 .filtre{
     display: flex;
@@ -161,6 +162,7 @@ html{
 .eco:hover{
     background-color: #F2F2F2; 
     border: 3px solid #DEEBFF;
+    cursor: pointer;
 }
 .familial{
     display: flex;
@@ -173,6 +175,7 @@ html{
 .familial:hover{
     background-color: #F2F2F2; 
     border: 3px solid #DEEBFF;
+    cursor: pointer;
 }
 
 .romantique{
@@ -186,6 +189,7 @@ html{
 .romantique:hover{
     background-color: #F2F2F2; 
     border: 3px solid #DEEBFF;
+    cursor: pointer;
 }
 .animaux{
     display: flex;
@@ -198,6 +202,7 @@ html{
 .animaux:hover{
     background-color: #F2F2F2;
     border: 3px solid #DEEBFF;
+    cursor: pointer;
 }
 .btn-filtre{
     position: absolute;
@@ -829,7 +834,7 @@ body{
     display: flex;
     flex-direction: column;
     height: 190px;
-    width: auto;
+    width: 90%;
     border-radius: 25px;
     justify-content: space-around;
     color: black;
@@ -931,18 +936,21 @@ body{
     justify-content: space-around;
 }
 .img-col1 {
-    width: auto;
+    width: 90%;
     margin: 10px 20px 5px 20px;
 }
 .img-col2{
+    width: 90%;
     height: 420px;
     justify-content: space-around;
-    margin: 5px 20px 5px 20px;
+    margin: 10px 20px 5px 20px;
 }
 .img-col3{
+    width: 90%;
     margin: 10px 20px 5px 20px;
 }
 .img-col4 {
+    width: 90%;
     height: 420px;
     justify-content: space-around;
     margin: 5px 20px 5px 20px;
@@ -1077,6 +1085,8 @@ body{
     padding-bottom: 25px;
 }
 .box-log{
+    width: 100%;
+    margin: auto;
     display: flex;
     align-items:center;
     align-content:center;
@@ -1156,6 +1166,7 @@ body{
 }  
 .box-pop{
     width: 100%;
+    margin: auto;
     display: flex;
     flex-direction: row;
     position: inherit;
